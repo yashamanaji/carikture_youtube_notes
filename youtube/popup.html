@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/popup.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="tabs">
+            <button id="login-tab-btn" class="tablinks">Login</button>
+            <button id="viewnotes-tab-btn" class="tablinks">View Notes</button>
+        </div>
+        <div id="tabcontentarea">
+            <div id="login" class="tabcontent">
+                <form action="/action_page.php" method="post">
+                   
+                  
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" id="userName" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" id="userPassword" required>
+                          
+                      <button type="submit">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                  
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                  
+            </div>
+            <div id="view-notes" class="tabcontent">
+                <h3>View Notes</h3>
+                <div id="notes-made"></div>
+            </div>
+        </div>
+        <script src="scripts/jquery-3.5.1.min.js"></script>
+        <script src="scripts/extension.js"></script>
+    </body>
+</html>

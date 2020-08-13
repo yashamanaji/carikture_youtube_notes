@@ -1,0 +1,66 @@
+{
+    "youtube-notes": {
+        "dQw4w9WgXcQ": {
+            "allNotes": [
+                {
+                    "user": "johndoe",
+                    "timeStamp": "2:34",
+                    "universalTime": "64654654",
+                    "videoTitle": "Some title",
+                    "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+                    "uploadedToServer": true,
+                    "reporters": ["someuser", "anotheruser"],
+                    "likers": ["user1", "user2"],
+                    "noteText": "Some note text content",
+                    "private": true
+                },
+                {
+                    "user": "janedoe",
+                    "timeStamp": "1:34",
+                    "universalTime": "984984894",
+                    "videoTitle": "Some title",
+                    "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+                    "uploadedToServer": true,
+                    "reporters": ["someuser", "anotheruser"],
+                    "likers": ["user3", "user2"],
+                    "noteText": "Some note text content",
+                    "private": false
+                }
+            ],
+            "lastUpdated": "2665464",
+            "dateCreated": "5654654",
+            "whoViewed": ["auser", "anotheruser"],
+            "channel": "someone"
+        },
+        "d1YBv2mWll0": {
+            "allNotes": [
+                {
+                    "user": "johndoe",
+                    "timeStamp": "0:34",
+                    "universalTime": "64654654",
+                    "url": "https://youtube.com/watch?v=d1YBv2mWll0",
+                    "uploadedToServer": true,
+                    "reporters": ["someuser", "anotheruser"],
+                    "likers": ["user1", "user2"],
+                    "noteText": "Some note text content",
+                    "private": true
+                },
+                {
+                    "user": "janedoe",
+                    "timeStamp": "0:24",
+                    "universalTime": "984984894",
+                    "url": "https://youtube.com/watch?v=d1YBv2mWll0",
+                    "uploadedToServer": true,
+                    "reporters": ["someuser", "anotheruser"],
+                    "likers": ["user3", "user2"],
+                    "noteText": "Some note text content",
+                    "private": false
+                }
+            ],
+            "lastUpdated": "564654654",
+            "dateCreated": "874894999",
+            "whoViewed": ["auser", "anotheruser"],
+            "channel": "someone"
+        }
+    }
+}
